@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brostle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+</head>
+<body>
+    <div class="intro-container">
+        <div class="intro-text" id="welcome">
+            <span class="small-text">Welcome to</span>
+            <span class="large-text highlight-text">Bro-ible</span>
+        </div>
+        
+        <div class="intro-text" id="rule">
+            <span>You're entitled to follow the rule</span>
+            <span class="rule-number" id="ruleNumber"></span>
+        </div>
+        
+        <div class="intro-text" id="bro">
+            <span class="small-text">if you want to become a</span>
+            <span class="large-text highlight-text">Broo!</span>
+        </div>
+        
+        <div class="intro-text" id="countdown">
+            <span>3</span>
+        </div>
+    </div>
+    
+    <div id="custom-pdf-viewer">
+        <canvas id="pdf-render"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
